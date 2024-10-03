@@ -1,0 +1,22 @@
+.img {
+    padding: 40px;
+    
+  }
+
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats img {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 10px;
+  }
+  

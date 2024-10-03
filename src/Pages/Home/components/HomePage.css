@@ -1,0 +1,163 @@
+/* General Styles */
+.home-container {
+  display: flex;
+  background-size: cover;                                                                                   
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  width: 100%;
+  
+}
+
+.hero img {
+  width: 1350px;      
+  height: 500px;     
+  object-fit: cover;
+  filter: blur(3px);
+}
+
+/* Hero Section */
+.hero-text {
+  text-align: left;
+  font-weight: bolder;
+  position:relative;
+  right:300px;
+  top: -320px;
+ 
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  color: black;
+  font-weight: 1500px;
+ 
+ 
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+/* Content Section */
+.content-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Creates a responsive grid */
+  gap: 30px; /* Adds space between items */
+  width: 100%;
+  padding: 0px;
+  margin: 10px ;
+  padding-bottom: 50px;
+  position: relative;
+  top: -220px;
+  background-color: rgba(205, 193, 214, 1); /* Background color */
+}
+
+
+
+.content-item {
+  text-align: left;
+  font-weight: bold;
+  color: rgba(22, 0, 65, 1);
+  padding: 10px;
+  position: relative;
+
+}
+
+.content-item img {
+  width: 100%;       /* Ensure the image fits the width of its container */
+  height: 300px;     /* Force all images to have the same height */
+  object-fit: cover; /* Ensures the image fits while maintaining aspect ratio */
+  
+}
+
+
+.content-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.content-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-text {
+    top: -250px;
+   
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+    top: 50px;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+  }
+
+  .content-section {
+    top: -150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    top: -180px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .content-section {
+    width: 95%;
+    top: -120px;
+    padding: 15px;
+  }
+
+  .content-item img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero img {
+    height: 40vh;
+  }
+
+  .hero-text {
+    top: -230px;
+    right: -2px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .content-section {
+    top: -100px;
+    padding: 10px;
+  }
+
+  .content-item img {
+    height: 200px;
+  }
+}
+
+
+
+
+

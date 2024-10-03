@@ -1,0 +1,40 @@
+.events-section {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  top: -80px;
+}
+
+.events-section h2 {
+  color: rgba(22, 0, 65, 1);
+  margin-bottom: 2rem;
+  margin-left: 10px;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Container for the image */
+.event-item {
+  position: relative;
+  width: 98%; /* Increase the width to make the images larger */
+  margin: 0 auto; /* Center the image container horizontally */
+  padding-top: 40%; /* Adjust the aspect ratio */
+  overflow: hidden;
+  box-sizing: border-box;
+  /* Add space between the images */
+}
+
+/* Styles for the image */
+.event-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: fill;
+  border: 5px solid #ccc; /* Add a border around the image */
+  box-sizing: border-box;
+}
+

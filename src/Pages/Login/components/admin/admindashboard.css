@@ -1,0 +1,1381 @@
+.adminDashboard {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding: 68px 1px;
+    flex-direction: column;
+    position: relative;
+    right: 12px;
+    overflow: hidden;
+  }
+  
+  .div6 {
+    width: 100%;
+    max-width: 1371px;
+    margin: 12px 0 0 11px;
+  }
+
+  .b0 {
+    line-height: 1;
+    align-self: center;
+    margin-top: 27px;
+  }
+  .b50 {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font: 500 20px Inter, sans-serif;
+  }
+  .b85 {
+    font-size: 20px;
+    line-height: 20px;
+    align-self: start;
+    margin-top: 10px;
+  }
+  .b100 {
+    line-height: 20px;
+  }
+  .b120 {
+    font-size: 20px;
+    line-height: 1;
+    align-self: start;
+    margin-top: 7px;
+  }
+  .b150 {
+    align-self: center;
+    margin-top: 14px;
+  }
+  .b200 {
+    color: rgba(103, 93, 93, 1);
+    align-self: end;
+    margin-top: 22px;
+    font: 800 15px/20px Abhaya Libre ExtraBold, -apple-system, Roboto,
+      Helvetica, sans-serif;
+  }
+  .b250 {
+    z-index: 10;
+    margin-top: -15px;
+  } 
+  
+  .b300 {
+    margin-top : 25px;
+  }
+  .b2003 {
+    flex-grow: 1;
+  }
+  
+  .div {
+    background-color: rgba(205, 193, 214, 1);
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px 58px;
+  }
+  @media (max-width: 991px) {
+    .div {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div2 {
+    align-self: start;
+    display: flex;
+    gap: 23px;
+    color: rgba(0, 0, 0, 1);
+    font: 400 36px/36px Inter, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div3 {
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+    display: flex;
+    width: 85px;
+    height: 85px;
+  }
+  .abcSchool {
+    margin: auto 0;
+  }
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    font: var(--sds-typography-body-font-weight-regular)
+      var(--sds-typography-body-size-medium) / 1
+      var(--sds-typography-body-font-family);
+  }
+  .contactUs {
+    border-radius: 10px;
+    background-color: rgba(20, 12, 115, 0.96);
+    color: #fff;
+    padding: 17px 38px;
+  }
+  @media (max-width: 991px) {
+    .contactUs {
+      margin-right: 7px;
+      padding: 0 20px;
+    }
+  }
+  .div5 {
+    display: flex;
+    margin-top: 12px;
+    gap: 17px;
+    color: #000;
+  }
+  .img {
+    aspect-ratio: 1.1;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+  }
+  .b0112345567 {
+    flex-grow: 1;
+    width: 108px;
+    margin: auto 0;
+  }
+ 
+  @media (max-width: 991px) {
+    .div6 {
+      max-width: 100%;
+    }
+  }
+  .div7 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div7 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 22%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div8 {
+    background-color: rgba(212, 210, 246, 1);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+  }
+  @media (max-width: 991px) {
+    .div8 {
+      margin-top: 31px;
+    }
+  }
+  .div9 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 8px;
+  }
+  .div10 {
+    align-self: center;
+    display: flex;
+    width: 250px;
+    max-width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .adminPanel {
+    color: rgba(0, 0, 0, 1);
+    font: 700 20px Inter, sans-serif;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img2 {
+    aspect-ratio: 1.12;
+    object-fit: contain;
+    object-position: center;
+    width: 19px;
+  }
+  .img3 {
+    aspect-ratio: 0.99;
+    object-fit: contain;
+    object-position: center;
+    width: 166px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 28px;
+    max-width: 100%;
+  }
+  .team1SuperAdmin {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 18px;
+    font: 700 20px Inter, sans-serif;
+  }
+  .div11 {
+    align-self: start;
+    display: flex;
+    gap: 13px;
+    margin: 21px 0 0 16px;
+  }
+  @media (max-width: 991px) {
+    .div11 {
+      margin-left: 10px;
+    }
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img4 {
+    aspect-ratio: 0.9;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+  }
+  .dashboard {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: start;
+    margin-top: 12px;
+    flex-basis: auto;
+    font: 400 20px Inter, sans-serif;
+    text-decoration: none;
+  }
+  .div12 {
+    align-self: start;
+    display: flex;
+    margin-top: 39px;
+    gap: 11px;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, 1);
+  }
+  .div13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+  }
+  @media (max-width: 991px) {
+    .div13 {
+      white-space: initial;
+    }
+  }
+  .div14 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 14px 0 6px;
+  }
+  @media (max-width: 991px) {
+    .div14 {
+      white-space: initial;
+    }
+  }
+  .data {
+    align-self: start;
+  }
+  .img5 {
+    aspect-ratio: 0.9;
+    object-fit: contain;
+    object-position: center;
+    width: 36px;
+    align-self: start;
+    margin: 17px 0 0 14px;
+  }
+  @media (max-width: 991px) {
+    .img5 {
+      margin-left: 10px;
+    }
+  }
+  .img6 {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    margin-top: 9px;
+  }
+  .img7 {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    margin-top: 12px;
+  }
+  .img8 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+    margin-top: 12px;
+  }
+  .pages {
+    align-self: stretch;
+    margin-top: 36px;
+  }
+  @media (max-width: 991px) {
+    .pages {
+      margin-left: 2px;
+    }
+  }
+  .img9 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+    margin-top: 38px;
+  }
+  .img10 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+    margin-top: 13px;
+  }
+  .img11 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+    margin-top: 13px;
+  }
+  .img12 {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 33px;
+    margin-top: 12px;
+  }
+  .tasks {
+    align-self: start;
+    margin-top: 41px;
+  }
+  @media (max-width: 991px) {
+    .tasks {
+      margin-top: 40px;
+    }
+  }
+  .div15 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 0;
+    position: relative;
+    bottom: 40px;
+    
+  }
+  .homePageAboutUsRegisterLogin {
+    margin-top: 109px;
+  }
+  @media (max-width: 991px) {
+    .homePageAboutUsRegisterLogin {
+      margin-top: 40px;
+    }
+  }
+  .div16 {
+    display: flex;
+    margin-top: 25px;
+    gap: 6px;
+  }
+  .div17 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+  }
+  .img13 {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+  }
+  .img14 {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+    margin-top: 23px;
+  }
+  .img15 {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+    margin-top: 19px;
+  }
+  .img16 {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+    margin-top: 23px;
+  }
+  .img17 {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 27px;
+    margin-top: 19px;
+  }
+  .studentRegistrationUpdateStudentActivationTeacherRegistrationUpdateTeacherActivationPaymentInvoices {
+    color: rgba(0, 0, 0, 1);
+    flex-grow: 1;
+    width: 238px;
+    font: 400 20px Inter, sans-serif;
+  }
+  .charts {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: start;
+    margin-top: 34px;
+    font: 700 24px Inter, sans-serif;
+  }
+  .div18 {
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 38px 0 10px;
+  }
+  @media (max-width: 991px) {
+    .div18 {
+      padding-right: 20px;
+    }
+  }
+  .div19 {
+    align-self: stretch;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  @media (max-width: 991px) {
+    .div19 {
+      margin-left: 6px;
+    }
+  }
+  .div20 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img18 {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+  }
+  @media (max-width: 991px) {
+    .img18 {
+      margin-right: 3px;
+    }
+  }
+  .img19 {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 32px;
+    margin-top: 13px;
+  }
+  .studentPaymentsStudentActiveDeactive {
+    color: rgba(0, 0, 0, 1);
+    margin: auto 0;
+    font: 400 16px Inter, sans-serif;
+  }
+  .databases {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 17px;
+    font: 700 24px Inter, sans-serif;
+  }
+  .div21 {
+    display: flex;
+    gap: 34px;
+    margin: 32px 0 0 16px;
+  }
+  @media (max-width: 991px) {
+    .div21 {
+      margin-left: 10px;
+    }
+  }
+  .div22 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img20 {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    object-position: center;
+    width: 25px;
+  }
+  .img21 {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    object-position: center;
+    width: 25px;
+    margin-top: 16px;
+  }
+  .studentDatabaseTeacherDatabase {
+    color: rgba(0, 0, 0, 1);
+    font: 400 20px Inter, sans-serif;
+  }
+  .div23 {
+    display: flex;
+    gap: 37px;
+    margin: 62px 0 0 11px;
+  }
+  @media (max-width: 991px) {
+    .div23 {
+      margin: 40px 0 0 10px;
+    }
+  }
+  .mail {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img22 {
+    aspect-ratio: 1.38;
+    object-fit: contain;
+    object-position: center;
+    width: 29px;
+  }
+  .mails {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font: 400 20px Inter, sans-serif;
+  }
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 78%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column2 {
+      width: 100%;
+    }
+  }
+  .div24 {
+    display: flex;
+    margin-top: 46px;
+    width: 100%;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div24 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .dashboard2 {
+    color: rgba(22, 0, 65, 1);
+    text-align: center;
+    align-self: start;
+    font: 800 48px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .dashboard2 {
+      margin-left: 2px;
+      font-size: 40px;
+    }
+  }
+  .welcomeToAdminPage {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    align-self: start;
+    margin-top: 16px;
+    font: 500 20px Inter, sans-serif;
+  }
+  .div25 {
+    margin: 56px 0 0 23px;
+  }
+  @media (max-width: 991px) {
+    .div25 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div26 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div26 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column3 {
+      width: 100%;
+    }
+  }
+  .div27 {
+    background-color: rgba(205, 193, 214, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 23px 16px 23px 6px;
+  }
+  @media (max-width: 991px) {
+    .div27 {
+      margin-top: 40px;
+    }
+  }
+  .div28 {
+    display: flex;
+    align-items: start;
+    gap: 9px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font: 500 20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div28 {
+      margin-right: 6px;
+    }
+  }
+  .img23 {
+    aspect-ratio: 1.04;
+    object-fit: contain;
+    object-position: center;
+    width: 55px;
+  }
+  .allRegisteredStudents {
+    margin-top: 17px;
+  }
+  .div29 {
+    align-self: start;
+    display: flex;
+    align-items: start;
+    gap: 40px 100px;
+    margin: 11px 0 0 14px;
+  }
+  @media (max-width: 991px) {
+    .div29 {
+      margin-left: 10px;
+    }
+  }
+  .div30 {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 1);
+    white-space: nowrap;
+    text-align: center;
+    font: 500 20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div30 {
+      white-space: initial;
+    }
+  }
+  .list2 {
+    display: flex;
+    margin-top: 4px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img24 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+  }
+  .column4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column4 {
+      width: 100%;
+    }
+  }
+  .div31 {
+    background-color: rgba(205, 193, 214, 1);
+    display: flex;
+    flex-grow: 1;
+    align-items: start;
+    gap: 10px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 100%;
+    padding: 23px 16px 23px 6px;
+    font: 500 20px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div31 {
+      margin-top: 40px;
+    }
+  }
+  .div32 {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div32 {
+      white-space: initial;
+    }
+  }
+  .img25 {
+    aspect-ratio: 1.04;
+    object-fit: contain;
+    object-position: center;
+    width: 55px;
+  }
+  .div33 {
+    display: flex;
+    margin-top: 19px;
+    flex-direction: column;
+  }
+  .img26 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    align-self: end;
+    margin-top: 37px;
+  }
+  @media (max-width: 991px) {
+    .img26 {
+      margin-right: 9px;
+    }
+  }
+  .column5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column5 {
+      width: 100%;
+    }
+  }
+  .div34 {
+    background-color: rgba(205, 193, 214, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 23px 22px 23px 6px;
+  }
+  @media (max-width: 991px) {
+    .div34 {
+      margin-top: 40px;
+      padding-right: 20px;
+    }
+  }
+  .div35 {
+    display: flex;
+    align-items: start;
+    gap: 9px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font: 500 20px Inter, sans-serif;
+  }
+  .img27 {
+    aspect-ratio: 1.04;
+    object-fit: contain;
+    object-position: center;
+    width: 55px;
+  }
+  .allRegisteredTeachers {
+    margin-top: 17px;
+  }
+  .div36 {
+    display: flex;
+    width: 168px;
+    max-width: 100%;
+    gap: 40px 100px;
+    margin: 11px 0 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div36 {
+      margin-left: 10px;
+    }
+  }
+  .list3 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1;
+  }
+  .img28 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+  }
+  .column6 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column6 {
+      width: 100%;
+    }
+  }
+  .div37 {
+    background-color: rgba(205, 193, 214, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 41px 12px 23px 31px;
+  }
+  @media (max-width: 991px) {
+    .div37 {
+      margin-top: 40px;
+      padding-left: 20px;
+    }
+  }
+  .div38 {
+    align-self: start;
+    display: flex;
+    gap: 32px;
+  }
+  .creditCard {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .img29 {
+    aspect-ratio: 1.36;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+  }
+  .payments {
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font: 500 20px Inter, sans-serif;
+  }
+  .img30 {
+    aspect-ratio: 1.33;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    align-self: end;
+    margin-top: 30px;
+  }
+  .div39 {
+    margin: 118px 0 0 29px;
+  }
+  @media (max-width: 991px) {
+    .div39 {
+      max-width: 100%;
+      margin: 40px 4px 0 0;
+    }
+  }
+  .div40 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div40 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column7 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column7 {
+      width: 100%;
+    }
+  }
+  .div41 {
+    border-radius: 20px;
+    background-color: rgba(235, 234, 255, 1);
+    width: 100%;
+    padding: 30px 29px 98px 0;
+  }
+  @media (max-width: 991px) {
+    .div41 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div42 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div42 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column8 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 54%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column8 {
+      width: 100%;
+    }
+  }
+  .div43 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 1);
+    font: 800 24px/1 Abhaya Libre ExtraBold, -apple-system, Roboto,
+      Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div43 {
+      margin-top: 40px;
+    }
+  }
+  .studentsActivation {
+    align-self: center;
+  }
+  .div44 {
+    border-radius: 6px;
+    display: flex;
+    margin-top: 31px;
+    height: 243px;
+  }
+  .column9 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 46%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column9 {
+      width: 100%;
+    }
+  }
+  .div45 {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: column;
+    font-family: Abhaya Libre ExtraBold, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 800;
+  }
+  @media (max-width: 991px) {
+    .div45 {
+      margin-top: 40px;
+    }
+  }
+  .thisWeek {
+    color: rgba(103, 93, 93, 1);
+    font-size: 20px;
+    line-height: 1;
+    align-self: center;
+  }
+  .div46 {
+    display: flex;
+    margin-top: 30px;
+    gap: 12px;
+  }
+  .div47 {
+    background-color: rgba(20, 12, 115, 1);
+    border-radius: 50%;
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin: auto 0;
+  }
+  .div48 {
+    display: flex;
+    flex-direction: column;
+  }
+  .sentMailToRegistered {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .div49 {
+    align-self: start;
+    display: flex;
+    margin-top: 55px;
+    gap: 12px;
+  }
+  @media (max-width: 991px) {
+    .div49 {
+      margin: 40px 0 0 9px;
+    }
+  }
+  .div50 {
+    background-color: rgba(102, 171, 215, 1);
+    border-radius: 50%;
+    align-self: start;
+    display: flex;
+    width: 18px;
+    height: 18px;
+  }
+  .div51 {
+    display: flex;
+    flex-direction: column;
+  }
+  .paidForRegister {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .column10 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column10 {
+      width: 100%;
+    }
+  }
+  .div52 {
+    border-radius: 20px;
+    background-color: rgba(235, 234, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 7px auto 0;
+    padding: 23px 79px 105px 38px;
+  }
+  @media (max-width: 991px) {
+    .div52 {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px 100px;
+    }
+  }
+  .div53 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    font-family: Abhaya Libre ExtraBold, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    font-weight: 800;
+  }
+  .studentsLogin {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    line-height: 1;
+    align-self: start;
+  }
+  .thisWeek2 {
+    color: rgba(103, 93, 93, 1);
+    font-size: 20px;
+    line-height: 1;
+    align-self: end;
+  }
+  .div54 {
+    align-self: center;
+    margin-top: 101px;
+    width: 277px;
+    max-width: 100%;
+    height: 1px;
+    border: 1px solid rgba(103, 93, 93, 1);
+  }
+  @media (max-width: 991px) {
+    .div54 {
+      margin-top: 40px;
+    }
+  }
+  .div55 {
+    z-index: 10;
+    display: flex;
+    margin-top: -14px;
+    width: 24px;
+    flex-direction: column;
+    color: rgba(103, 93, 93, 1);
+    white-space: nowrap;
+    font: 800 15px/20px Abhaya Libre ExtraBold, -apple-system, Roboto,
+      Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div55 {
+      margin-left: 9px;
+      white-space: initial;
+    }
+  }
+  .div56 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    z-index: 10;
+    display: flex;
+    width: 8px;
+    height: 126px;
+    margin: -16px 0 0 85px;
+  }
+  @media (max-width: 991px) {
+    .div56 {
+      margin-left: 10px;
+    }
+  }
+  .div57 {
+    align-self: end;
+    z-index: 10;
+    display: flex;
+    align-items: end;
+    gap: 31px;
+    margin: -114px 33px 0 0;
+  }
+  @media (max-width: 991px) {
+    .div57 {
+      margin-right: 10px;
+    }
+  }
+  .div58 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    align-self: stretch;
+    display: flex;
+    width: 8px;
+    height: 115px;
+  }
+  .div59 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    display: flex;
+    margin-top: 25px;
+    width: 8px;
+    height: 90px;
+  }
+  .div60 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    display: flex;
+    margin-top: 57px;
+    width: 8px;
+    height: 57px;
+  }
+  @media (max-width: 991px) {
+    .div60 {
+      margin-top: 40px;
+    }
+  }
+  .div61 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    display: flex;
+    margin-top: 50px;
+    width: 8px;
+    height: 65px;
+  }
+  @media (max-width: 991px) {
+    .div61 {
+      margin-top: 40px;
+    }
+  }
+  .div62 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    display: flex;
+    margin-top: 22px;
+    width: 8px;
+    height: 93px;
+  }
+  .div63 {
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(20, 12, 115, 1);
+    display: flex;
+    margin-top: 66px;
+    width: 8px;
+    height: 49px;
+  }
+  @media (max-width: 991px) {
+    .div63 {
+      margin-top: 40px;
+    }
+  }
+  .div64 {
+    display: flex;
+    margin-top: -106px;
+    width: 335px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div64 {
+      margin-left: 9px;
+    }
+  }
+  .div65 {
+    display: flex;
+    gap: 35px;
+  }
+  .div66 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: fit-content;
+  }
+  .div67 {
+    height: 1px;
+    border: 1px solid rgba(103, 93, 93, 1);
+  }
+  .div68 {
+    margin-top: 34px;
+    height: 1px;
+    border: 1px solid rgba(103, 93, 93, 1);
+  }
+  .div69 {
+    display: flex;
+    margin-top: 21px;
+    gap: 20px;
+    color: rgba(103, 93, 93, 1);
+    white-space: nowrap;
+    justify-content: space-between;
+    font: 800 15px Abhaya Libre ExtraBold, -apple-system, Roboto,
+      Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div69 {
+      white-space: initial;
+    }
+  }
+  .div70 {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div70 {
+      white-space: initial;
+    }
+  }
+  .div71 {
+    align-self: start;
+    margin-top: 13px;
+    width: 277px;
+    max-width: 100%;
+    height: 1px;
+    border: 1px solid rgba(103, 93, 93, 1);
+  }
+  .div72 {
+    align-self: center;
+    margin-top: 5px;
+    width: 277px;
+    max-width: 100%;
+    height: 1px;
+    border: 1px solid rgba(103, 93, 93, 1);
+  }
+  .div73 {
+    align-self: center;
+    display: flex;
+    margin-top: 6px;
+    width: 244px;
+    max-width: 100%;
+    gap: 20px;
+    color: rgba(103, 93, 93, 1);
+    white-space: nowrap;
+    justify-content: space-between;
+    font: 800 15px/1 Abhaya Libre ExtraBold, -apple-system, Roboto,
+      Helvetica, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div73 {
+      white-space: initial;
+    }
+  }
+  .div74 {
+    border-radius: 10px;
+    background-color: rgba(235, 234, 255, 1);
+    display: flex;
+    flex-direction: column;
+    font-family: Abhaya Libre ExtraBold, -apple-system, Roboto, Helvetica,
+      sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 800;
+    margin: 73px 23px 0 29px;
+    padding: 53px 80px 53px 28px;
+  }
+  @media (max-width: 991px) {
+    .div74 {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+      padding: 0 20px;
+    }
+  }
+  .studentsRegistration {
+    font-size: 24px;
+    line-height: 1;
+    align-self: start;
+  }
+  .img31 {
+    aspect-ratio: 3.44;
+    object-fit: contain;
+    object-position: center;
+    width: 739px;
+    max-width: 100%;
+    margin: 56px 0 0 56px;
+  }
+  @media (max-width: 991px) {
+    .img31 {
+      margin-top: 40px;
+    }
+  }
+  .div75 {
+    align-self: center;
+    width: 816px;
+    max-width: 100%;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  .div76 {
+    align-self: center;
+    display: flex;
+    margin-top: 12px;
+    width: 776px;
+    max-width: 100%;
+    gap: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: 2;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 991px) {
+    .div76 {
+      white-space: initial;
+    }
+  }
